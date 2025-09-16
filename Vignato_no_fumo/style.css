@@ -1,0 +1,354 @@
+
+/*----------------home----------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(immagini/sfondo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 150px;
+}
+.titoletti {
+    flex: 1;
+    text-align: right;
+}
+.titoletti ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.titoletti ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.titoletti ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ABCDEF;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.titoletti ul li:hover::after {
+    width: 100%;
+}
+.text-box {
+    width: 90%;
+    color: #d5bd8f;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 62px;
+}
+.itis {
+    width: 90%;
+    color: #ABCDEF;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.itis p {
+    font-size: 20px;
+}
+.nomi {
+    width: 90%;
+    color: #ABCDEF;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+.nomi p {
+    font-size: 20px;
+}
+
+    /*----------------altre pagine----------------*/
+  /*----------------immagini pagine----------------*/
+
+.sub-header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/conseguenze.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.sub-header1 {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/letipologie.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.sub-header2 {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/smetti.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: black;
+} 
+.il-sium {
+    min-height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/sium.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.smettere {
+    min-height: 50vh;
+    width: 40%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/smetteree.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.bilancia {
+    min-height: 50vh;
+    width: 120%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/bilancia.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.dopofumo {
+    min-height: 60vh;
+    width: 70%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/dopofumo.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.il-sium1 {
+    min-height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/CICCHE.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+	
+.il-sium2 {
+    min-height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/GLO.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.il-sium3 {
+    min-height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/PUFF.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.il-sium4 {
+    min-height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/SVAPO.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.il-sium5 {
+    min-height: 60vh;
+    width: 70%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/Danno.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.il-sium6 {
+    min-height: 60vh;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/FUMO.jpeg);
+    background-size: cover;
+    text-align: center;
+}
+.il-sium7 {
+    min-height: 60vh;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)),url(immagini/scatola.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+
+    /*------------titoli pagine------------*/
+
+.text-bo {
+    width: 100%;
+    color: #d5bd8f;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    font-size: 45px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-bo1 {
+    width: 100%;
+    color: #d5bd8f;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    font-size: 45px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-bo2 {
+    width: 100%;
+    color: #d5bd8f;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    font-size: 45px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    /*----------------paragrafi pagine----------------*/
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img {
+    width: 100%;
+}
+.title1 {
+    position: 50%;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0cc;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #c0c0c0;
+}
+
+.destra {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0cc;
+}
+.sinistra {
+    flex: 1;
+    padding: 20px;
+    background-color: #c0c0c0;
+}
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #c0c0c0;
+}
+.sium {
+    flex:1;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.sium2 {
+    flex:1;
+    background-color: #c0c0c0;
+    text-align: center;
+}
+    /*----------------come smettere----------------*/
+.colonna-sinistra {
+    flex: 1;
+    padding: 20px;
+}
+.titolo {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.fine-fumo {
+    display: flex;
+    padding: 100px;
+}
+.paragrafo{
+    text-align: center;
+}
+.si {
+    flex: 1;
+}
+.bilancia1 {
+    display: flex;
+}
+.conteiner1 {
+    background: rgba(0, 0, 0, 0.503);
+    padding: 20px;
+    border-radius: 10px;
+}
